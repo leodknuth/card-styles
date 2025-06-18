@@ -27,7 +27,7 @@
         padding: 3rem; /* 对应 p-12 */
         
         /* --- 4. 背景和交互样式 (来自您原有的section) --- */
-        background-image: url(https://images.pexels.com/photos/1428169/pexels-photo-1428169.jpeg?cs=srgb&dl=pexels-mccutcheon-1428169.jpg&fm=jpg&w=1280&h=1920&_gl=1*kxoc9u*_ga*MTA0MDE0NTQ3LjE3NDYzMzc1ODE.*_ga_8JE65Q40S6*czE3NTAyMjgyNDYkbzQkZzEkdDE3NTAyMjgzNDclajI1JGwwJGgw);
+        background-image: url(https://images.pexels.com/photos/7815639/pexels-photo-7815639.jpeg?cs=srgb&dl=pexels-anna-nekrashevich-7815639.jpg&fm=jpg&w=1280&h=2276&_gl=1*1ibhzts*_ga*MTA0MDE0NTQ3LjE3NDYzMzc1ODE.*_ga_8JE65Q40S6*czE3NTAyNjc0NzEkbzYkZzEkdDE3NTAyNjc3NTEkajExJGwwJGgw);
         background-size: cover;
         user-select: none; /* 对应 select-none */
         transition-property: all; /* 对应 transition-all */
