@@ -806,7 +806,60 @@ h1::after {
 </style>
 
 
-<h1>Free AI 文本转音频</h1>
+<h1>Dessix AI 文本转音频</h1>
 <p class="description">输入文本，选择语音风格，一键将文字转换为自然流畅的语音。<br>支持多种声音特征，帮您创建专业水准的音频内容。</p>
 
 <br>
+
+.sci-fi-btn {
+    position: relative;
+    padding: 4px 8px;
+    font-family: 'Arial', sans-serif;
+    font-size: 1em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #00f3ff;
+    background: #0a0a2e;
+    border: 2px solid #3d3dff;
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.5s;
+    text-shadow: 0 0 10px #00f3ff;
+    box-shadow: 0 0 20px rgba(61, 61, 255, 0.3);
+}
+
+.sci-fi-btn:hover {
+    background: #13134e;
+    box-shadow: 0 0 30px rgba(61, 61, 255, 0.6);
+    transform: scale(1.05);
+    color: #ffffff;
+}
+
+
+
+.sci-fi-btn:hover::before {
+    left: 100%;
+}
+
+
+
+.glowing-border:nth-child(1) {
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #3d3dff);
+    animation: borderTop 2s linear infinite;
+}
+
+@keyframes borderTop {
+    0% { left: -2px; }
+    100% { left: 100%; }
+}
+
+/* 添加点击动画 */
+.sci-fi-btn:active {
+    transform: scale(0.45);
+    transition: 0.1s;
+}
