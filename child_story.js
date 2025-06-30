@@ -44,23 +44,23 @@ let useWebSearch = false;
 let selectedTheme = "kids";
 // Website appearance theme (original customTheme)
 let websiteTheme = {
-  primary: "#FF6B6B",
-  secondary: "#4ECDC4",
-  accent: "#FFD166",
-  textColor: "#2E3C5A",
-  bgColor1: "#FFE5E5",
-  bgColor2: "#C9F9FF",
-  backgroundGradient: "linear-gradient(135deg, #FFE5E5, #C9F9FF)",
-  backgroundPattern: "none",
-  backgroundAnimation: "none",
-  cardBackground: "white",
-  headerBackground: "rgba(255,255,255,0.9)",
-  headerBorder: "4px solid var(--primary)",
-  headingFont: "'Fredoka One', cursive",
-  bodyFont: "'Nunito', sans-serif",
-  textShadow: "3px 3px 0px rgba(0,0,0,0.1)",
-  cardBorderRadius: "20px",
-  buttonStyle: "linear-gradient(45deg, var(--primary), #FF9472)"
+  primary: "#FFA726", // 主要颜色 - 一个鲜艳的橘色
+  secondary: "#FFB74D", // 次要颜色 - 一个较浅的橘色
+  accent: "#FFC97F", // 强调颜色 - 一个更柔和的橘色
+  textColor: "#4E342E", // 文本颜色 - 深棕色，与橘色搭配良好
+  bgColor1: "#FFF3E0", // 背景色1 - 非常浅的橘色/桃色
+  bgColor2: "#FFE0B2", // 背景色2 - 略深的柔和橘色
+  backgroundGradient: "linear-gradient(135deg, #FFF3E0, #FFE0B2)", // 背景渐变
+  backgroundPattern: "none",
+  backgroundAnimation: "none",
+  cardBackground: "white",
+  headerBackground: "rgba(255,243,224,0.9)", // 头部背景 - 半透明的浅橘色
+  headerBorder: "4px solid var(--primary)",
+  headingFont: "'Fredoka One', cursive",
+  bodyFont: "'Nunito', sans-serif",
+  textShadow: "3px 3px 0px rgba(0,0,0,0.1)",
+  cardBorderRadius: "20px",
+  buttonStyle: "linear-gradient(45deg, var(--primary), #FFB74D)" // 按钮样式 - 从主色到次色的渐变
 };
 
 // Story theme customization (new structure for story content)
