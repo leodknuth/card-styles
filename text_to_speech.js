@@ -129,7 +129,7 @@ async function generateAudio() {
     statusMessage.style.display = 'none';
     try {
         // Create the URL with the encoded text and selected voice
-        const url = `https://text.pollinations.ai/${encodeURIComponent(text)}?model=openai-audio&voice=${voice}&token=E0klKWnz6ynomvkL`;
+        const url = `https://text.pollinations.ai/${encodeURIComponent(text)}?model=openai-audio&voice=${voice}`;
         // Fetch the audio file
         const response = await fetch(url);
         if (!response.ok) {
